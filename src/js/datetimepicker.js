@@ -45,7 +45,8 @@
         beforeRender: '&',
         onSetTime: '&'
       },
-      templateUrl: 'templates/datetimepicker.html'
+      templateUrl: 'static/views/_components/directives/datetimepicker.html'
+
     }
 
     DirectiveController.$inject = ['$scope', '$element', '$attrs']
